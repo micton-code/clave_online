@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+}
+/*logo Clave*/
+.main-container{
+    width: 320px;
+    height: 320px;
+    margin-bottom: 50px;
+}
+.main-container_logo{
+    width: 320px;
+    height: 320px;
+}
