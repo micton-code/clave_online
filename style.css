@@ -6,13 +6,23 @@
 html{
     font-size: 62,5%;
 }
+main{
+    width: 100%;
+    height: auto;
+}
 /*logo Clave*/
 .main-container{
     width: 320px;
     height: 320px;
+    margin: 0 auto;
     margin-bottom: 50px;
 }
 .main-container_logo{
     width: 320px;
     height: 320px;
+}
+main .musica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
