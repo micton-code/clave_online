@@ -32,6 +32,7 @@ main .musica{
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 50px;
     /*dimensiones del contenedor*/
     padding: 1.5px;
     width: 300px;
@@ -47,4 +48,9 @@ main .musica audio{
 main .musica audio::-webkit-media-controls-panel {
     background-color: transparent;
     box-shadow: none;
+}
+main .cajaDeComentarios {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
