@@ -13,6 +13,9 @@ main{
 header h1 {
     margin-top: 60px;
     text-align: center;
+    font-family: 'Domine', serif;
+    -webkit-text-stroke: 1px rgba(245, 229, 4, 0.4);/*borde de letras ,puede no ser compatible con todos los navegadores*/
+    text-shadow: 2px 2px 4px rgba(245, 229, 4, 0.4);
 }
 /*logo Clave*/
 .main-container{
