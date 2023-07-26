@@ -71,8 +71,8 @@ main .cajaDeComentarios {
 
 /* PUBLICIDAD */
 .publicidad-container {
-    width: 25rem;
-    height: 10rem;
+    width: 29rem;
+    height: 12rem;
     position: relative;
     overflow: hidden;
     margin: 0 auto 30px;
@@ -81,6 +81,7 @@ main .cajaDeComentarios {
 .ad-image {
     width: 100%;
     height: 100%;
+    border-radius: 4px;
     position: absolute;
     top: 0;
     left: 0;

@@ -8,4 +8,4 @@ function showNextImage() {
 }
 
 // iniciar el bucle
-setInterval(showNextImage, 3000);
+setInterval(showNextImage, 5000);
