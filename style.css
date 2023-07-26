@@ -91,3 +91,74 @@ main .cajaDeComentarios {
     background: linear-gradient(207.8deg, #f7cc09 16.69%, #fff 100%);
     
 }
+
+/* FOOTER */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+.footer-container .up {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    font-family: 'Domine', serif;
+}
+.footer-container .up section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.up .left ul {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.up .left li {
+    margin: 10px 0;
+}
+.up .left a {
+    text-decoration: none;
+    color: var(--white);
+}
+.up .right img {
+    width: 90px;
+    height: 90px;
+} 
+.footer-container .down {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+/* footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    font-family: 'Domine', serif;
+}
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+footer .left ul {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.left li {
+    margin: 10px 0;
+}
+.left a {
+    text-decoration: none;
+    color: var(--white);
+}
+.right img {
+    width: 90px;
+    height: 90px;
+} */
