@@ -4,37 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet">
     <title>Clave 99.3FM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)" />
 </head>
 <body>
-    <header>
-        <!-- LOGO -->
-        <div class="header-container">
-            <img class="header-container_logo" src="./images/WhatsApp Image 2023-06-08 at 11.57.31 AM.jpeg" alt="logo">
-        </div>
-    </header>
-
     <main>
+        <section class="cabecera">
+            <!-- REPRODUCTOR CLAVE 99.3 FM -->
+            <section class="reproductor">
+                <!-- Logo -->
+                <div class="logoPrincipal">
+                    <div class="logoPrincipal-container">
+                        <img class="logoPrincipal-container--img" src="./images/WhatsApp Image 2023-06-08 at 11.57.31 AM.jpeg" alt="logo">
+                    </div>
+                </div>
+                <!-- Reproductor -->
+                <div class="music-container">
+                    <audio  controls>
+                        <source src="https://welsh-programs-founded-related.trycloudflare.com/fm" type="audio/mp3">
+                    </audio>
+                </div>
+            </section>
+             <!-- PUBLICIDAD -->
+            <section class="publicidad">
+                <div class="publicidad-container">
+                    <img class="ad-image" src="./images/WhatsApp Image 2023-07-25 at 9.59.37 PM.jpeg" alt="Anuncio 0">
+                    <img class="ad-image" src="./images/Pepsi_logo_2008.svg.png" alt="Anuncio 1">
+                    <img class="ad-image" src="./images/serviMotors.jpeg" alt="Anuncio 2">
+                    <img class="ad-image" src="./images/Coca-Cola_logo.svg.png" alt="Anuncio 3">
+                </div>
+            </section>
+        </section>
         
-        <!-- REPRODUCTOR -->
-        <div class="musica">
-            <audio  controls>
-                <source src="https://welsh-programs-founded-related.trycloudflare.com/fm" type="audio/mp3">
-            </audio>
-        </div>
         <!-- TITULO -->
         <!-- <h1>CLAVE 99.3FM</h1> -->
-        <!-- PUBLICIDAD -->
-        <section>
-            <div class="publicidad-container">
-                <img class="ad-image" src="./images/WhatsApp Image 2023-07-25 at 9.59.37 PM.jpeg" alt="Anuncio 0">
-                <img class="ad-image" src="./images/Pepsi_logo_2008.svg.png" alt="Anuncio 1">
-                <img class="ad-image" src="./images/serviMotors.jpeg" alt="Anuncio 2">
-                <img class="ad-image" src="./images/Coca-Cola_logo.svg.png" alt="Anuncio 3">
-            </div>
-        </section>
+
         <!-- CAJA DE COMENTARIOS -->
         <section class="cajaDeComentarios">
             <div id="fb-root"></div>
@@ -63,6 +69,7 @@
             </div>
         </div>
     </footer>
+    
     <script src="./script.js"></script>
 </body>
 </html>

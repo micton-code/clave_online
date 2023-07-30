@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+// VARIABLES
+    // Fuentes de Texto
+    $font-stack: 'Domine', serif;
+
+// CODIGO
+ main {
+    width: 100%;
+    height: auto;
+    .cabecera {
+        // REPRODUCTOR
+        .reproductor {
+            // Logo de Clave 99.3 FM
+            .logoPrincipal {
+                .logoPrincipal-container {
+                    width: 320px;
+                    height: 320px;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    .logoPrincipal-container--img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            // Reproductor de la emisora
+            .music-container {
+                //dimensiones del contenedor
+                width: 90%;
+                min-width: 283px;
+                max-width: 400px;
+                border-radius: 28px;
+                padding: 2.5px;
+                // alineacion
+                display: flex;
+                justify-content: center;
+                margin: 0 auto 36px;
+                /*color y sombreado*/
+                background-color: #dbb50c;
+                box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+                audio {
+                    width: 100%;
+                    &::-webkit-media-controls-panel {
+                        background-color: transparent;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+        //PUBLICIDAD
+        .publicidad {
+            .publicidad-container{
+                //dimensiones
+                width: 27rem;
+                height: 12rem;
+                position: relative;
+                overflow: hidden;
+                margin: 0 auto 30px;
+                .ad-image {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 6px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
+                    transition: opacity 0.5s ease-in-out;
+                    &.active {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+   
+    //CAJA DE COMENTARIOS (revisar)
+    .cajaDeComentarios {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 30px 0px;
+        background: linear-gradient(207.8deg, #f7cc09 16.69%, #fff 100%);
+    }
+}
+    // Footer
+footer {
+    width: 100%;
+    height: auto;
+    .footer-container {
+        .up{
+            display: flex;
+            width: 100%;
+            height: 130px;
+            background-color: orange;
+            section {
+                display: flex;
+                width: 50%;
+                justify-content: center;
+                align-items: center;
+            }
+            .left {
+                ul {
+                    font-family: $font-stack;
+                    font-size: 1.4rem;
+                    font-weight: 300;
+                    line-height: 1.8rem;
+                    list-style: none;
+                    li {
+                        margin: 10px 0;
+                        a {
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
+            }
+            .right {
+                img {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 12px 2px 12px 2px;
+                }
+            }
+        }
+        .down {
+            width: 100%;
+            height: auto;
+            text-align: center;   
+            background-color: orange; 
+            color: black;
+        }
+    }
+}
