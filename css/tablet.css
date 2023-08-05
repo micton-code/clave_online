@@ -1,0 +1,15 @@
+main .cabecera {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .cabecera .reproductor .music-container {
+  width: 350px;
+}
+main .cabecera .publicidad {
+  display: flex;
+  align-items: center;
+}
+main .cabecera .publicidad .publicidad-container {
+  width: 30rem;
+  height: 13rem;
+}/*# sourceMappingURL=tablet.css.map */
