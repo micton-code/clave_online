@@ -58,8 +58,8 @@ html{
         .publicidad {
             .publicidad-container{
                 //dimensiones
-                width: 30rem;
-                height: 13rem;
+                width: 28rem;
+                height: 20rem;
                 position: relative;
                 overflow: hidden;
                 margin: 0 auto 30px;
@@ -152,6 +152,7 @@ footer {
             text-align: center;   
             background-color: orange; 
             color: black;
+            padding-bottom: 20px;
         }
     }
 }
