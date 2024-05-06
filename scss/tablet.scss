@@ -4,6 +4,19 @@ main {
         justify-content: space-evenly;
         //REPRODUCTOR
         .reproductor{
+            .logoPrincipal {
+                background-color: white;
+                .logoPrincipal-container {
+                    width: 320px;
+                    height: 320px;
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+                    background-image: url(../images/WhatsApp\ Image\ 2023-06-08\ at\ 11.57.31\ AM.jpeg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }    
             .music-container {
                 width: 350px;
             }

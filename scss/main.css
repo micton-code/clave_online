@@ -12,15 +12,18 @@ main {
   width: 100%;
   height: auto;
 }
+main .cabecera .reproductor .logoPrincipal {
+  background-color: #ddb00d;
+}
 main .cabecera .reproductor .logoPrincipal .logoPrincipal-container {
   width: 320px;
-  height: 320px;
+  height: 70px;
   margin: 0 auto;
   margin-bottom: 20px;
-}
-main .cabecera .reproductor .logoPrincipal .logoPrincipal-container .logoPrincipal-container--img {
-  width: 100%;
-  height: 100%;
+  background-image: url(../images/claveMobile.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main .cabecera .reproductor .music-container {
   width: 90%;
@@ -43,7 +46,7 @@ main .cabecera .reproductor .music-container audio::-webkit-media-controls-panel
   box-shadow: none;
 }
 main .cabecera .publicidad .publicidad-container {
-  width: 28rem;
+  width: 30rem;
   height: 20rem;
   position: relative;
   overflow: hidden;

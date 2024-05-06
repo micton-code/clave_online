@@ -19,15 +19,16 @@ html{
         .reproductor {
             // Logo de Clave 99.3 FM
             .logoPrincipal {
+                background-color: #ddb00d;
                 .logoPrincipal-container {
                     width: 320px;
-                    height: 320px;
+                    height: 70px;
                     margin: 0 auto;
                     margin-bottom: 20px;
-                    .logoPrincipal-container--img {
-                        width: 100%;
-                        height: 100%;
-                    }
+                    background-image: url(../images/claveMobile.jpeg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
                 }
             }
             // Reproductor de la emisora
@@ -58,7 +59,7 @@ html{
         .publicidad {
             .publicidad-container{
                 //dimensiones
-                width: 28rem;
+                width: 30rem;
                 height: 20rem;
                 position: relative;
                 overflow: hidden;
