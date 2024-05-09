@@ -79,6 +79,27 @@ main .cabecera .publicidad .publicidad-botones #prevButton, main .cabecera .publ
   border-radius: 8px;
   cursor: pointer;
 }
+main .noticiasClave .container-noticiasClave {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: linear-gradient(to right top, #bfdad0, #a2ceb4, #8ec192, #84b26c, #81a141);
+  color: black;
+  font-size: 1.2rem;
+  padding: 12px;
+  font-family: "Roboto", sans-serif;
+}
+main .noticiasClave .container-noticiasClave .texto-noticiasClave {
+  text-align: center;
+  line-height: 20px;
+}
+main .noticiasClave .container-noticiasClave .texto-noticiasClave .texB {
+  font-size: 1.4rem;
+}
+main .noticiasClave .container-noticiasClave .texto-noticiasClave .enlace-noticiasClave a {
+  text-decoration: none;
+  color: black;
+}
 main .cajaDeComentarios {
   display: flex;
   justify-content: center;
@@ -104,7 +125,7 @@ footer .footer-container .up section {
   align-items: center;
 }
 footer .footer-container .up .left ul {
-  font-family: "Domine", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.8rem;
