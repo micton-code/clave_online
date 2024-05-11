@@ -85,13 +85,16 @@ main .noticiasClave .container-noticiasClave {
   align-items: center;
   background-image: linear-gradient(to right top, #bfdad0, #a2ceb4, #8ec192, #84b26c, #81a141);
   color: black;
-  font-size: 1.2rem;
-  padding: 12px;
+  font-size: 1.6rem;
+  padding: 12px 20px;
   font-family: "Roboto", sans-serif;
+}
+main .noticiasClave .container-noticiasClave .img-noticiasClave .icoWhats {
+  width: 50px;
 }
 main .noticiasClave .container-noticiasClave .texto-noticiasClave {
   text-align: center;
-  line-height: 20px;
+  line-height: 30px;
 }
 main .noticiasClave .container-noticiasClave .texto-noticiasClave .texB {
   font-size: 1.4rem;
