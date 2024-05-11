@@ -25,7 +25,7 @@ function showPreviousImage() {
 }
 
 //Iniciar el bucle 
-var interval = setInterval(showNextImage, 6000);
+var interval = setInterval(showNextImage, 8000);
 
 //Obtener referencias a los botones 
 var prevButton = document.getElementById('prevButton');
