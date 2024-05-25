@@ -1,7 +1,8 @@
 var images = document.querySelectorAll('.ad-image');
 var currentIndex = 0;
+var interval;
 
-//Funcion para mostrar la imagen actual 
+// Función para mostrar la imagen actual
 function showCurrentImage() {
     for (var i = 0; i < images.length; i++) {
         if (i === currentIndex) {
@@ -12,20 +13,23 @@ function showCurrentImage() {
     }
 }
 
-//Funcion para mostrar la imagen siguiente
+// Función para mostrar la imagen siguiente
 function showNextImage() {
     currentIndex = (currentIndex + 1) % images.length;
     showCurrentImage();
 }
 
-//Funcion para mostrar la imagen anterior
+// Función para mostrar la imagen anterior
 function showPreviousImage() {
-    currentIndex = (currentIndex - 1 + images.length) %images.length;
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
     showCurrentImage();
 }
 
-//Iniciar el bucle 
-var interval = setInterval(showNextImage, 8000);
+// Mostrar la primera imagen al cargar la página
+document.addEventListener('DOMContentLoaded', function() {
+    showNextImage();
+    interval = setInterval(showNextImage, 8000); // Iniciar el bucle
+});
 
 //Obtener referencias a los botones 
 var prevButton = document.getElementById('prevButton');
@@ -35,12 +39,11 @@ var nextButton = document.getElementById('nextButton');
 prevButton.addEventListener('click', function() {
     clearInterval(interval); //Detener el bucle automático 
     showPreviousImage();
-    interval = setInterval(showNextImage, 6000); //Reinicia el buble
+    interval = setInterval(showNextImage, 8000); //Reinicia el buble
 });
 
 nextButton.addEventListener('click', function() {
     clearInterval(interval); //Detener el bucle automático
     showNextImage();
-    interval = setInterval(showNextImage, 6000); //Reinicia el buble
+    interval = setInterval(showNextImage, 8000); //Reinicia el buble
 });
-
