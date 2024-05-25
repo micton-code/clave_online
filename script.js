@@ -28,7 +28,7 @@ function showPreviousImage() {
 // Mostrar la primera imagen al cargar la página
 document.addEventListener('DOMContentLoaded', function() {
     showNextImage();
-    interval = setInterval(showNextImage, 8000); // Iniciar el bucle
+    interval = setInterval(showNextImage, 10000); // Iniciar el bucle
 });
 
 //Obtener referencias a los botones 
@@ -39,11 +39,11 @@ var nextButton = document.getElementById('nextButton');
 prevButton.addEventListener('click', function() {
     clearInterval(interval); //Detener el bucle automático 
     showPreviousImage();
-    interval = setInterval(showNextImage, 8000); //Reinicia el buble
+    interval = setInterval(showNextImage, 10000); //Reinicia el buble
 });
 
 nextButton.addEventListener('click', function() {
     clearInterval(interval); //Detener el bucle automático
     showNextImage();
-    interval = setInterval(showNextImage, 8000); //Reinicia el buble
+    interval = setInterval(showNextImage, 10000); //Reinicia el buble
 });
