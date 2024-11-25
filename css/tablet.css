@@ -2,6 +2,19 @@ main .cabecera {
   display: flex;
   justify-content: space-evenly;
 }
+main .cabecera .reproductor .logoPrincipal {
+  background-color: white;
+}
+main .cabecera .reproductor .logoPrincipal .logoPrincipal-container {
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-image: url(../images/WhatsApp\ Image\ 2023-06-08\ at\ 11.57.31\ AM.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 main .cabecera .reproductor .music-container {
   width: 350px;
 }
@@ -11,6 +24,7 @@ main .cabecera .publicidad {
   justify-content: center;
 }
 main .cabecera .publicidad .publicidad-container {
-  width: 30rem;
-  height: 13rem;
+  width: 35rem;
+  height: 25rem;
+  margin-top: 30px;
 }/*# sourceMappingURL=tablet.css.map */
