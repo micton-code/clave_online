@@ -79,11 +79,35 @@ main .cabecera .publicidad .publicidad-botones #prevButton, main .cabecera .publ
   border-radius: 8px;
   cursor: pointer;
 }
+main .noticiasClave .container-noticiasClave-telegram {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(54deg, rgb(255, 255, 255) 10%, rgb(50, 225, 237) 50%, rgb(26, 139, 219) 100%);
+  color: black;
+  font-size: 1.6rem;
+  padding: 12px 20px;
+  font-family: "Roboto", sans-serif;
+}
+main .noticiasClave .container-noticiasClave-telegram .img-noticiasClave-telegram .icoTele {
+  width: 50px;
+}
+main .noticiasClave .container-noticiasClave-telegram .texto-noticiasClave {
+  text-align: center;
+  line-height: 30px;
+}
+main .noticiasClave .container-noticiasClave-telegram .texto-noticiasClave .texB {
+  font-size: 1.4rem;
+}
+main .noticiasClave .container-noticiasClave-telegram .texto-noticiasClave .enlace-noticiasClave a {
+  text-decoration: none;
+  color: black;
+}
 main .noticiasClave .container-noticiasClave {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-image: linear-gradient(to right top, #bfdad0, #a2ceb4, #8ec192, #84b26c, #81a141);
+  background: linear-gradient(169deg, rgb(255, 255, 255) 10%, rgb(94, 255, 124) 50%, rgb(5, 97, 4) 100%);
   color: black;
   font-size: 1.6rem;
   padding: 12px 20px;

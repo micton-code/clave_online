@@ -100,11 +100,42 @@ html{
 
     //NOTICIAS CLAVE
     .noticiasClave{
+        //telegram
+        .container-noticiasClave-telegram{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background: linear-gradient(54deg,rgba(255, 255, 255, 1) 10%, rgba(50, 225, 237, 1) 50%, rgba(26, 139, 219, 1) 100%);
+            color: black;
+            font-size: 1.6rem;
+            padding: 12px 20px;
+            font-family: $font-stack;
+            .img-noticiasClave-telegram{
+                .icoTele{
+                    width: 50px;
+                }
+            }
+            .texto-noticiasClave{
+                text-align: center;
+                line-height: 30px;
+                .texB{
+                    font-size: 1.4rem;
+                }
+                .enlace-noticiasClave{
+                    
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+        }    
+        }
+        //whatsapp
         .container-noticiasClave{
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-            background-image: linear-gradient(to right top, #bfdad0, #a2ceb4, #8ec192, #84b26c, #81a141);
+            background: linear-gradient(169deg,rgba(255, 255, 255, 1) 10%, rgba(94, 255, 124, 1) 50%, rgba(5, 97, 4, 1) 100%);
             color: black;
             font-size: 1.6rem;
             padding: 12px 20px;
@@ -130,6 +161,7 @@ html{
             }
         }
     }
+
    
     //CAJA DE COMENTARIOS (revisar)
     .cajaDeComentarios {
