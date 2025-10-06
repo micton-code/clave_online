@@ -45,6 +45,13 @@ main .cabecera .reproductor .music-container audio::-webkit-media-controls-panel
   background-color: transparent;
   box-shadow: none;
 }
+main .cabecera h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 2.6rem;
+  color: black;
+  margin-bottom: 30px;
+}
 main .cabecera .presentacion {
   text-align: justify;
   padding: 0 20px 30px;
@@ -152,6 +159,7 @@ main .cajaDeComentarios {
 main .sobreClave {
   text-align: justify;
   padding: 0 20px 30px;
+  background-color: #fffffc;
 }
 main .sobreClave h2 {
   font-family: "Roboto", sans-serif;
