@@ -14,10 +14,10 @@ html{
  main {
     width: 100%;
     height: auto;
-    .cabecera {
-        // REPRODUCTOR
-        .reproductor {
-            // Logo de Clave 99.3 FM
+
+    // LOGO CLAVE ONLINE
+    .logoClaveOnline {
+        // Logo de Clave 99.3 FM
             .logoPrincipal {
                 background-color: #ddb00d;
                 .logoPrincipal-container {
@@ -31,6 +31,12 @@ html{
                     background-size: cover;
                 }
             }
+    }
+
+    // CABECERA
+    .cabecera {
+        // REPRODUCTOR
+        .reproductor {
             // Reproductor de la emisora
             .music-container {
                 //dimensiones del contenedor
@@ -199,7 +205,7 @@ html{
     .sobreClave {
             text-align: justify;
             padding: 0 20px 30px;
-            background-color: #fffffc;
+            background-color: #fdf1bd;
             h2{
                 font-family: $font-stack;
                 text-align: center;

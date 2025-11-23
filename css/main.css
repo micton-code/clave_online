@@ -12,10 +12,10 @@ main {
   width: 100%;
   height: auto;
 }
-main .cabecera .reproductor .logoPrincipal {
+main .logoClaveOnline .logoPrincipal {
   background-color: #ddb00d;
 }
-main .cabecera .reproductor .logoPrincipal .logoPrincipal-container {
+main .logoClaveOnline .logoPrincipal .logoPrincipal-container {
   width: 320px;
   height: 70px;
   margin: 0 auto;
@@ -159,7 +159,7 @@ main .cajaDeComentarios {
 main .sobreClave {
   text-align: justify;
   padding: 0 20px 30px;
-  background-color: #fffffc;
+  background-color: #fdf1bd;
 }
 main .sobreClave h2 {
   font-family: "Roboto", sans-serif;
