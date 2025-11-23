@@ -60,7 +60,7 @@ main .cabecera .reproductor .music-container audio::-webkit-media-controls-panel
 main .cabecera h1 {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   color: black;
   margin-bottom: 30px;
 }
@@ -70,8 +70,40 @@ main .cabecera .presentacion {
 }
 main .cabecera .presentacion p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: black;
+}
+main .cabecera .notiClaveOnline {
+  text-align: justify;
+  padding: 10px 20px 30px;
+  background: linear-gradient(50deg, rgb(238, 231, 199) 10%, rgb(237, 235, 225) 50%, rgb(242, 241, 228) 100%);
+  border-radius: 6px;
+}
+main .cabecera .notiClaveOnline h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 12px;
+}
+main .cabecera .notiClaveOnline h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: black;
+  text-shadow: #ddb00d 0.5px 0.5px 2px;
+  margin-bottom: 15px;
+}
+main .cabecera .notiClaveOnline p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  margin-bottom: 15px;
+  color: black;
+}
+main .cabecera .notiClaveOnline img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 main .cabecera .publicidad .publicidad-container {
   width: 30rem;

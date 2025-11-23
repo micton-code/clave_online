@@ -81,7 +81,7 @@ main {
         h1 {
             font-family: $font-stack;
             text-align: center;
-            font-size: 2.6rem;
+            font-size: 2.8rem;
             color: black;
             margin-bottom: 30px;
         }
@@ -91,10 +91,44 @@ main {
             padding: 0 20px 30px;
             p {
                 font-family: $font-stack;
-                font-size: 1.4rem;
+                font-size: 1.6rem;
                 color: black;
             }
         }
+        // NOTICIAS CLAVE ONLINE
+        .notiClaveOnline {
+            text-align: justify;
+            padding: 10px 20px 30px;
+            background: linear-gradient(50deg,rgb(238, 231, 199) 10%, rgb(237, 235, 225) 50%, rgb(242, 241, 228) 100%);
+            border-radius: 6px ;
+            h2 {
+                font-family: $font-stack;
+                text-align: center;
+                font-size: 2.5rem;
+                color: black;
+                margin-bottom: 12px;
+            }
+            h3 {
+                font-family: $font-stack;
+                font-size: 2rem;
+                color: black;
+                text-shadow: #ddb00d 0.5px 0.5px 2px;
+                margin-bottom: 15px;
+            }
+            p {
+                font-family: $font-stack;
+                font-size: 1.6rem;
+                line-height: 2.2rem;
+                margin-bottom: 15px;
+                color: black;
+            }
+            img{
+                width: 100%;
+                border-radius: 8px;
+                margin-bottom: 15px;
+            }
+        }
+
         //PUBLICIDAD
         .publicidad {
             .publicidad-container{

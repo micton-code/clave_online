@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 .logoClaveOnline .logoPrincipal {
   background-color: #ddb00d;
 }
@@ -17,10 +27,10 @@ main {
 }
 main .cabecera {
   display: grid;
-  grid-template-areas: "reproductor reproductor" "titulo publicidad" "presentacion publicidad";
+  grid-template-areas: "reproductor reproductor" "titulo publicidad" "presentacion publicidad" "notiClaveOnline notiClaveOnline";
   grid-template-columns: 1fr 2fr;
   gap: 1.5rem;
-  margin: 40px 0 30px 50px;
+  margin: 40px 50px 30px 50px;
   align-items: center;
   background: #fff;
   color: #fff;
@@ -89,6 +99,67 @@ main .cabecera .publicidad-botones button {
 main .cabecera .publicidad-botones button:hover {
   background: #ffd84f;
 }
+main .cabecera .notiClaveOnline {
+  grid-area: notiClaveOnline;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "titulo     titulo      titulo" ".          subtitulo   ." ".          parrafo1    ." "imagen1    parrafo2    ." ".          parrafo3    ." ".          parrafo4    imagen2" ".          parrafo5    .";
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background: linear-gradient(50deg, rgb(238, 231, 199) 10%, rgb(237, 235, 225) 50%, rgb(242, 241, 228) 100%);
+  border-radius: 8px;
+}
+main .cabecera .notiClaveOnline h2 {
+  grid-area: titulo;
+  text-align: center;
+  font-size: 3rem;
+  color: #21211f;
+}
+main .cabecera .notiClaveOnline h3 {
+  grid-area: subtitulo;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0;
+}
+main .cabecera .notiClaveOnline p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #333;
+}
+main .cabecera .notiClaveOnline p:nth-of-type(1) {
+  grid-area: parrafo1;
+}
+main .cabecera .notiClaveOnline img:nth-of-type(1) {
+  grid-area: imagen1;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px;
+}
+main .cabecera .notiClaveOnline p:nth-of-type(2) {
+  grid-area: parrafo2;
+}
+main .cabecera .notiClaveOnline p:nth-of-type(3) {
+  grid-area: parrafo3;
+}
+main .cabecera .notiClaveOnline p:nth-of-type(4) {
+  grid-area: parrafo4;
+}
+main .cabecera .notiClaveOnline p:nth-of-type(5) {
+  grid-area: parrafo5;
+}
+main .cabecera .notiClaveOnline img:nth-of-type(2) {
+  grid-area: imagen2;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px;
+}
 main .music-container audio {
   width: 100%;
   border-radius: 10px;
@@ -99,13 +170,13 @@ main .sobreClave {
   background-color: #fdf1bd;
 }
 main .sobreClave h2 {
-  font-family: "Montserrat", sans-serif;
   text-align: center;
-  margin-bottom: 20px;
+  padding: 20px 0;
+  font-size: 2.2rem;
   color: #333;
 }
 main .sobreClave p {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   color: #555;
 }/*# sourceMappingURL=tablet.css.map */
