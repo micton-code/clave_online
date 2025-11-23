@@ -1,21 +1,22 @@
-main {
-    // Logo Clave Online
-    .logoClaveOnline {
-        .logoPrincipal {
-                background-color: #ddb00d;
-                .logoPrincipal-container {
-                    width: 320px;
-                    height: 70px;
-                    margin: 0 auto;
-                    margin-bottom: 10px;
-                    background-image: url(../images/claveMobile.jpeg);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                }
-            }   
-    }
+// HEADER (LOGO CLAVE ONLINE)
+.logoClaveOnline {
+    .logoPrincipal {
+        background-color: #ddb00d;
+        .logoPrincipal-container {
+            width: 320px;
+            height: 70px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            background-image: url(../images/claveMobile.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }   
+}
 
+// MAIN
+main {
     // Cabecera
     .cabecera {
     display: grid;
@@ -105,32 +106,32 @@ main {
             }
         }
     }
-}
+    }
 
-.music-container {
+    .music-container {
     audio {
         width: 100%;
         border-radius: 10px;
     }
-}
-
-/* SOBRE CLAVE */
-.sobreClave {
-    text-align: justify;
-    padding: 0 20px 30px;
-    background-color: #fdf1bd;
-
-    h2 {
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-        margin-bottom: 20px;
-        color: #333;
     }
 
-    p {
-        font-size: 1.1rem;
-        line-height: 1.6;
-        color: #555;
+    /* SOBRE CLAVE */
+    .sobreClave {
+        text-align: justify;
+        padding: 0 20px 30px;
+        background-color: #fdf1bd;
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+        }
     }
-}
 }

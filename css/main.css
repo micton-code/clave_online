@@ -8,14 +8,20 @@ html {
   font-size: 62.5%;
 }
 
-main {
+.logoClaveOnline {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
+  z-index: 1000;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  height: 71px;
+  border-bottom: #969a9c 1px solid;
 }
-main .logoClaveOnline .logoPrincipal {
+.logoClaveOnline .logoPrincipal {
   background-color: #ddb00d;
 }
-main .logoClaveOnline .logoPrincipal .logoPrincipal-container {
+.logoClaveOnline .logoPrincipal .logoPrincipal-container {
   width: 320px;
   height: 70px;
   margin: 0 auto;
@@ -24,6 +30,12 @@ main .logoClaveOnline .logoPrincipal .logoPrincipal-container {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
 }
 main .cabecera .reproductor .music-container {
   width: 90%;

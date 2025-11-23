@@ -11,27 +11,43 @@ html{
     $font-stack: "Roboto", sans-serif;
 
 // CODIGO
- main {
+
+// HEADER (LOGO CLAVE ONLINE)
+.logoClaveOnline {
+    //anclaje superior fijo del header
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    //estilos visuales
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    height: 71px;
+    border-bottom: #969a9c 1px solid;
+    // Logo de Clave 99.3 FM
+    .logoPrincipal {
+        background-color: #ddb00d;
+        .logoPrincipal-container {
+            //posicionamiento y dimensiones
+            width: 320px;
+            height: 70px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            //imagen de fondo
+            background-image: url(../images/claveMobile.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+    }
+}
+
+// MAIN
+main {
     width: 100%;
     height: auto;
-
-    // LOGO CLAVE ONLINE
-    .logoClaveOnline {
-        // Logo de Clave 99.3 FM
-            .logoPrincipal {
-                background-color: #ddb00d;
-                .logoPrincipal-container {
-                    width: 320px;
-                    height: 70px;
-                    margin: 0 auto;
-                    margin-bottom: 20px;
-                    background-image: url(../images/claveMobile.jpeg);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                }
-            }
-    }
+    margin-top: 100px;
 
     // CABECERA
     .cabecera {
@@ -220,7 +236,8 @@ html{
             }
     }
 }
-    // Footer
+
+// FOOTER
 footer {
     width: 100%;
     height: auto;
