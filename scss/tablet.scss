@@ -33,165 +33,137 @@ html{
 main {
     // Cabecera
     .cabecera {
-    display: grid;
-    grid-template-areas:
-        "reproductor reproductor"
-        "titulo publicidad"
-        "presentacion publicidad"
-        "notiClaveOnline notiClaveOnline";
-    grid-template-columns: 1fr 2fr;
-    gap: 1.5rem;
-    margin: 40px 50px 30px 50px;
-    align-items: center;
-    background: #fff;
-    color: #fff;
-
-    h1 {
-        grid-area: titulo;
-        font-size: 2.5rem;
-        text-align: center;
-        color: #000;
-    }
-
-    .reproductor {
-        grid-area: reproductor;
         display: grid;
-        flex-direction: column;
+        grid-template-areas:
+            "reproductor reproductor"
+            "titulo publicidad"
+            "presentacion publicidad";
+            
+        grid-template-columns: 1fr 2fr;
+        gap: 1.5rem;
+        margin: 40px 50px 30px 50px;
         align-items: center;
-        gap: 1rem;
+        background: #fff;
+        color: #fff;
 
-        .logoPrincipal {
-            width: 100%;
-            margin-bottom: 30px;
-
-            &-container {
-                width: 100px;
-                height: 100px;
-                background: url(../images/claveMobile.jpeg) center/cover no-repeat;
-            }
+        h1 {
+            grid-area: titulo;
+            font-size: 2.5rem;
+            text-align: center;
+            color: #000;
         }
-    }
 
-    .presentacion {
-        grid-area: presentacion;
-        font-size: 1.1rem;
-        line-height: 1.6;
-    }
-
-    .publicidad {
-        grid-area: publicidad;
-        text-align: center;
-
-        &-container {
+        .reproductor {
+            grid-area: reproductor;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-
-        .ad-image {
-            width: 100%;
-            border-radius: 10px;
-            transition: transform 0.3s ease;
-
-            &:hover {
-                transform: scale(1.05);
-            }
-        }
-
-        &-botones {
-            margin-top: 1rem;
-            display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
             gap: 1rem;
 
-            button {
-                background: #ffcc00;
-                color: #000;
-                border: none;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                cursor: pointer;
-                font-weight: bold;
-                transition: background 0.3s ease;
+            .logoPrincipal {
+                width: 100%;
+                margin-bottom: 30px;
 
-                &:hover {
-                    background: #ffd84f;
+                &-container {
+                    width: 100px;
+                    height: 100px;
+                    background: url(../images/claveMobile.jpeg) center/cover no-repeat;
                 }
             }
         }
-    }
-    .notiClaveOnline {
-        grid-area: notiClaveOnline;
-        // 1. Activar el sistema Grid
-        display: grid;
-        // 2. Definir las tres columnas: Sidebar Izquierda, Contenido Central, Sidebar Derecha
-        grid-template-columns: 1fr 2fr 1fr;
-        // 3. Definir las áreas con nombres para facilitar la colocación
-        grid-template-areas:
-            "titulo     titulo      titulo"
-            ".          subtitulo   ."
-            ".          parrafo1    ."
-            "imagen1    parrafo2    ."
-            ".          parrafo3    ."
-            ".          parrafo4    imagen2"
-            ".          parrafo5    .";
-            
-        // 4. Espacios entre celdas (columnas y filas)
-        gap: 2rem;
-        // Estilos base para la sección
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 40px;
-        background: linear-gradient(50deg,rgb(238, 231, 199) 10%, rgb(237, 235, 225) 50%, rgb(242, 241, 228) 100%);
-        border-radius: 8px;
-        // Estilos para los elementos internos
-        h2 {
-            grid-area: titulo;
-            text-align: center;
-            font-size: 3rem;
-            color: #21211f;
-        }
-        h3 {
-            grid-area: subtitulo;
-            font-size: 2rem;
-            font-weight: 500;
-            text-align: center;
-            margin-top: 0;
-        }
-        p {
-            font-size: 1.6rem;
+
+        .presentacion {
+            grid-area: presentacion;
+            font-size: 1.1rem;
             line-height: 1.6;
-            color: #333;
-        }
-        // Primer Párrafo y Primera Imagen (diseño asimétrico)
-        p:nth-of-type(1) {
-            grid-area: parrafo1;
         }
 
-        img:nth-of-type(1) {
-            grid-area: imagen1;
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-            border-radius: 4px;
+        .publicidad {
+            grid-area: publicidad;
+            text-align: center;
+
+            &-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .ad-image {
+                width: 100%;
+                border-radius: 10px;
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+
+            &-botones {
+                margin-top: 1rem;
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+
+                button {
+                    background: #ffcc00;
+                    color: #000;
+                    border: none;
+                    padding: 0.5rem 1rem;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    transition: background 0.3s ease;
+
+                    &:hover {
+                        background: #ffd84f;
+                    }
+                }
+            }
         }
-        // Párrafos 2, 3, 4, 5, 6 (todos se ubican en la columna central)
-        p:nth-of-type(2) { grid-area: parrafo2; }
-        p:nth-of-type(3) { grid-area: parrafo3; }
-        p:nth-of-type(4) { grid-area: parrafo4; }
-        p:nth-of-type(5) { grid-area: parrafo5; }
         
-        // Segunda Imagen (colocada en la columna derecha, junto al párrafo 3)
-        img:nth-of-type(2) {
-            grid-area: imagen2;
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-            border-radius: 4px;
+    }
+
+    // NOTICIAS CLAVE ONLINE
+    .notiClaveOnline {
+            font-style: $font-stack;
+            padding: 40px;
+            h2 {
+                font-size: 3rem;
+                margin-bottom: 3rem;
+            }
+
+            .noticias-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+
+            .noticia {
+                h3 {
+                    font-size: 2rem;
+                    padding: 1rem;
+                }
+
+                p {
+                    font-size: 1.6rem;
+                    padding: 0 1rem 1rem;
+                }
+
+                img {
+                    height: 180px;
+                    width: 35rem;
+                    border-radius: 2px;
+                    margin: 0 auto;
+                }
+
+                &:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+                }
+            }
         }
-    }
-    }
+
     .music-container {
     audio {
         width: 100%;

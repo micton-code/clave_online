@@ -27,7 +27,7 @@ main {
 }
 main .cabecera {
   display: grid;
-  grid-template-areas: "reproductor reproductor" "titulo publicidad" "presentacion publicidad" "notiClaveOnline notiClaveOnline";
+  grid-template-areas: "reproductor reproductor" "titulo publicidad" "presentacion publicidad";
   grid-template-columns: 1fr 2fr;
   gap: 1.5rem;
   margin: 40px 50px 30px 50px;
@@ -99,66 +99,36 @@ main .cabecera .publicidad-botones button {
 main .cabecera .publicidad-botones button:hover {
   background: #ffd84f;
 }
-main .cabecera .notiClaveOnline {
-  grid-area: notiClaveOnline;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-areas: "titulo     titulo      titulo" ".          subtitulo   ." ".          parrafo1    ." "imagen1    parrafo2    ." ".          parrafo3    ." ".          parrafo4    imagen2" ".          parrafo5    .";
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+main .notiClaveOnline {
+  font-style: "Roboto", sans-serif;
   padding: 40px;
-  background: linear-gradient(50deg, rgb(238, 231, 199) 10%, rgb(237, 235, 225) 50%, rgb(242, 241, 228) 100%);
-  border-radius: 8px;
 }
-main .cabecera .notiClaveOnline h2 {
-  grid-area: titulo;
-  text-align: center;
+main .notiClaveOnline h2 {
   font-size: 3rem;
-  color: #21211f;
+  margin-bottom: 3rem;
 }
-main .cabecera .notiClaveOnline h3 {
-  grid-area: subtitulo;
+main .notiClaveOnline .noticias-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+main .notiClaveOnline .noticia h3 {
   font-size: 2rem;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 0;
+  padding: 1rem;
 }
-main .cabecera .notiClaveOnline p {
+main .notiClaveOnline .noticia p {
   font-size: 1.6rem;
-  line-height: 1.6;
-  color: #333;
+  padding: 0 1rem 1rem;
 }
-main .cabecera .notiClaveOnline p:nth-of-type(1) {
-  grid-area: parrafo1;
+main .notiClaveOnline .noticia img {
+  height: 180px;
+  width: 35rem;
+  border-radius: 2px;
+  margin: 0 auto;
 }
-main .cabecera .notiClaveOnline img:nth-of-type(1) {
-  grid-area: imagen1;
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 4px;
-}
-main .cabecera .notiClaveOnline p:nth-of-type(2) {
-  grid-area: parrafo2;
-}
-main .cabecera .notiClaveOnline p:nth-of-type(3) {
-  grid-area: parrafo3;
-}
-main .cabecera .notiClaveOnline p:nth-of-type(4) {
-  grid-area: parrafo4;
-}
-main .cabecera .notiClaveOnline p:nth-of-type(5) {
-  grid-area: parrafo5;
-}
-main .cabecera .notiClaveOnline img:nth-of-type(2) {
-  grid-area: imagen2;
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 4px;
+main .notiClaveOnline .noticia:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 main .music-container audio {
   width: 100%;

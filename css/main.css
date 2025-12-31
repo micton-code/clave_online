@@ -73,39 +73,6 @@ main .cabecera .presentacion p {
   font-size: 1.6rem;
   color: black;
 }
-main .cabecera .notiClaveOnline {
-  text-align: justify;
-  padding: 10px 20px 30px;
-  background: linear-gradient(50deg, rgb(238, 231, 199) 10%, rgb(237, 235, 225) 50%, rgb(242, 241, 228) 100%);
-  border-radius: 6px;
-  margin-bottom: 30px;
-}
-main .cabecera .notiClaveOnline h2 {
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 2.5rem;
-  color: black;
-  margin-bottom: 12px;
-}
-main .cabecera .notiClaveOnline h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 2rem;
-  color: black;
-  text-shadow: #ddb00d 0.5px 0.5px 2px;
-  margin-bottom: 15px;
-}
-main .cabecera .notiClaveOnline p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.6rem;
-  line-height: 2.2rem;
-  margin-bottom: 15px;
-  color: black;
-}
-main .cabecera .notiClaveOnline img {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
 main .cabecera .publicidad .publicidad-container {
   width: 30rem;
   height: 20rem;
@@ -139,6 +106,53 @@ main .cabecera .publicidad .publicidad-botones #prevButton, main .cabecera .publ
   border: 0.2px solid rgba(75, 73, 73, 0);
   border-radius: 8px;
   cursor: pointer;
+}
+main .notiClaveOnline {
+  max-width: 100%;
+  padding: 20px;
+  background: linear-gradient(50deg, rgb(238, 231, 199) 10%, rgb(237, 235, 225) 50%, rgb(242, 241, 228) 100%);
+  border-radius: 8px;
+}
+main .notiClaveOnline h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #21211f;
+  margin-bottom: 2rem;
+}
+main .notiClaveOnline .noticias-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main .notiClaveOnline .noticia {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+main .notiClaveOnline .noticia:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+main .notiClaveOnline .noticia img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .notiClaveOnline .noticia h3 {
+  font-size: 1.8rem;
+  color: #21211f;
+  padding: 0.8rem 1rem;
+}
+main .notiClaveOnline .noticia p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #333;
+  padding: 0 1rem 1rem;
 }
 main .noticiasClave .container-noticiasClave-telegram {
   display: flex;
