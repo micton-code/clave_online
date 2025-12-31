@@ -115,16 +115,19 @@ main .notiClaveOnline .noticias-container {
 main .notiClaveOnline .noticia h3 {
   font-size: 2rem;
   padding: 1rem;
+  text-align: center;
+  margin: 10px 0;
 }
 main .notiClaveOnline .noticia p {
   font-size: 1.6rem;
-  padding: 0 1rem 1rem;
+  padding: 0 6rem 1.5rem;
 }
 main .notiClaveOnline .noticia img {
   height: 180px;
   width: 35rem;
-  border-radius: 2px;
+  border-radius: 0 20px 0px 60px;
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 main .notiClaveOnline .noticia:hover {
   transform: translateY(-5px);
