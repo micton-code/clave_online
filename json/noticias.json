@@ -1,5 +1,18 @@
 [
     {
+        "titulo": "FUNVISIS reporta sismo de magnitud 4,5 en Zulia.",
+        "descripcion": "La Fundación Venezolana de Investigaciones Sismológicas (FUNVISIS) ha actualizado el reporte oficial sobre el movimiento telúrico percibido este jueves 1 de enero de 2026 en el occidente del país.",
+        "imagen1": "./images/a1.jpg",
+        "contenido": [
+            "Según el organismo, el sismo se registró a las 8:37 a.m. (hora local) con una magnitud de 4,5 y una profundidad de 35,2 km.",
+
+            "El epicentro fue localizado específicamente a 24 km al noreste de Villa del Rosario, en el estado Zulia.",
+
+            "Este reporte técnico ajusta la información ofrecida anteriormente por servicios internacionales, confirmando un evento de intensidad moderada que fue sentido con fuerza en Maracaibo, San Francisco."
+        ],
+        "imagen2": "./images/a2.jpg"
+    },
+    {
         "titulo": "🚨🚌En Gaceta Oficial aumento del pasaje urbano a 60Bs en la Gran Caracas",
         "descripcion": "Finalmente, este martes 30, se conoció el aumento del pasaje urbano...",
         "imagen1": "./images/Parada1.jpg",
@@ -14,18 +27,5 @@
             "[Con información del Diario 2001 y Tal Cual.]"
         ],
         "imagen2": "./images/cam2.jpg"
-    },
-    {
-        "titulo": "Freddie Mercury tenía una de las voces más extraordinarias",
-        "descripcion": "El 19 de abril de 2016, los científicos confirmaron algo que los fans ya sabían...",
-        "imagen1": "./images/fre.jpg",
-        "contenido": [
-            "Un grupo de investigadores de Austria, la República Checa y Suecia se dispuso a analizar su capacidad vocal. Dirigido por el Dr. Christian Herbst de la Universidad de Viena, sus hallazgos fueron publicados en la revista Logopedics Phoniatrics Vocology.",
-            "El estudio reveló que Freddie tenía una técnica vocal como ninguna otra. Sus cuerdas vocales se movieron más rápido de lo normal, y su vibrato alcanzó 7.04 Hz, una velocidad más allá de los legendarios cantantes de operística como Pavarotti. La mayoría de los cantantes se sientan cómodamente alrededor de 5.4 a 6.9 Hz. Freddie fue más lejos.",
-            "También dominó el raro uso de subarmónicos, una técnica asociada principalmente con cantantes de garganta de lugares como Tuva, algo increíblemente difícil y único en la música occidental. ¿Pero Freddie? Lo hizo con facilidad.",
-            "El equipo concluyó que su voz no solo era poderosa, era técnicamente brillante, teatralmente expresiva, y verdaderamente única en su especie.",
-            "Ahora es ciencia: Freddie Mercury fue un fenómeno vocal. Inigualable. Irrepetible. Siempre legendario."
-        ],
-        "imagen2": "./images/freGuita.jpg"
     }
 ]
