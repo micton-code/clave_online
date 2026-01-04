@@ -1,5 +1,18 @@
 [
     {
+        "titulo": "Donald Trump designa a Marco Rubio para liderar la estrategia de control sobre Venezuela",
+        "descripcion": "El gobierno de Estados Unidos, bajo la administración de Donald Trump, ha dado un paso decisivo en su política hacia el país suramericano al designar al secretario de Estado, Marco Rubio, como la figura principal para gestionar la situación en Venezuela.",
+        "imagen1": "./images/tru.webp",
+        "contenido": [
+            "El gobierno de Donald Trump designó al secretario de Estado, Marco Rubio, para encabezar las operaciones de control sobre Venezuela. Según Bloomberg, Rubio asumirá el liderazgo tras la extracción de Nicolás Maduro, posicionando a uno de los sectores más críticos del chavismo al frente de la transición operativa en el país.",
+            "Esta decisión surge tras las declaraciones de Trump sobre su intención de 'dirigir' Venezuela. Ante la ausencia de Maduro, el Tribunal Supremo venezolano otorgó poderes interinos a la vicepresidenta Delcy Rodríguez, quien denunció las acciones militares de Estados Unidos como una agresión bárbara contra la soberanía nacional.",
+            "El control de los recursos energéticos es el eje central de esta política, con Trump admitiendo la presencia de EE. UU. en el sector petrolero. Washington planea presionar al entorno de Rodríguez mediante un sistema de 'incentivos y castigos' para asegurar resultados favorables a sus intereses económicos sin detallar aún nuevos despliegues de tropas.",
+            "Trump lanzó una advertencia directa a los actuales funcionarios en Caracas: 'Lo que le ocurrió a Maduro les puede ocurrir a ellos'. Esta retórica busca forzar la cooperación del gobierno interino mediante amenazas de nuevos ataques, utilizando la presión política y militar como principal herramienta de negociación.",
+            "El objetivo final es la apertura de la industria petrolera a corporaciones estadounidenses para generar ingresos bajo una gestión alineada con Washington. Con Marco Rubio al mando, Estados Unidos busca consolidar una estructura de poder que garantice el control geopolítico y económico sobre el futuro de Venezuela."
+        ],
+        "imagen2": "./images/tru1.webp"
+    },
+    {
         "titulo": "FUNVISIS reporta sismo de magnitud 4,5 en Zulia.",
         "descripcion": "La Fundación Venezolana de Investigaciones Sismológicas (FUNVISIS) ha actualizado el reporte oficial sobre el movimiento telúrico percibido este jueves 1 de enero de 2026 en el occidente del país.",
         "imagen1": "./images/a1.jpg",
@@ -11,21 +24,5 @@
             "Este reporte técnico ajusta la información ofrecida anteriormente por servicios internacionales, confirmando un evento de intensidad moderada que fue sentido con fuerza en Maracaibo, San Francisco."
         ],
         "imagen2": "./images/a2.jpg"
-    },
-    {
-        "titulo": "🚨🚌En Gaceta Oficial aumento del pasaje urbano a 60Bs en la Gran Caracas",
-        "descripcion": "Finalmente, este martes 30, se conoció el aumento del pasaje urbano...",
-        "imagen1": "./images/Parada1.jpg",
-        "contenido": [
-
-            "La medida fue anunciada a través de la Gaceta Oficial número 43.284, publicada el pasado 26 de diciembre.",
-            
-            "<strong>«Se establece la tarifa de pasaje urbano en sesenta bolívares (Bs. 60,00)»</strong>, detalla el documento.",
-
-            "La resolución advierte además que los domingos y días feriados los conductores podrán aplicar un recargo de 20 % sobre el pasaje establecido. Asimismo, recuerda que continúan vigentes las tarifas preferenciales de 50 % para estudiantes, personas con discapacidad y adultos mayores de 60 años.",
-
-            "[Con información del Diario 2001 y Tal Cual.]"
-        ],
-        "imagen2": "./images/cam2.jpg"
     }
 ]
