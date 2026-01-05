@@ -1,5 +1,17 @@
 [
     {
+        "titulo": "Delcy Rodríguez asume la presidencia encargada tras la captura y traslado de Nicolás Maduro a Nueva York",
+        "descripcion": "En un acto ante la Asamblea Nacional, la vicepresidenta juramentó el cargo mientras se confirmaba la reclusión de Maduro en una prisión federal estadounidense por cargos de narcoterrorismo.",
+        "imagen1": "./images/delcy.jpg",
+        "contenido": [
+            "En una sesión histórica celebrada el 5 de enero de 2026, Delcy Rodríguez prestó juramento como presidenta encargada de Venezuela ante la Asamblea Nacional. El acto fue dirigido por su hermano, Jorge Rodríguez, quien fue ratificado como presidente del Parlamento, y contó con la participación de Nicolás Maduro Guerra, hijo del mandatario capturado, quien sostuvo la Constitución durante la ceremonia. La designación sigue el dictamen del Tribunal Supremo de Justicia para cubrir la falta temporal del Ejecutivo tras los eventos del pasado fin de semana.",
+            "Durante su discurso, Rodríguez utilizó una fuerte carga emocional al declarar: 'Juro por el comandante Hugo Chávez'. La mandataria interina calificó como un 'secuestro' la captura de Nicolás Maduro y de la primera combatiente, Cilia Flores, ocurrida el 3 de enero de 2026 durante una operación militar de Estados Unidos en Caracas. Rodríguez se refirió a ambos como 'héroes' y 'rehenes' del gobierno estadounidense, mientras hacía un llamado a la unidad de la Fuerza Armada y de los seguidores del chavismo.",
+            "Simultáneamente, en Nueva York, se confirmó que Nicolás Maduro se encuentra recluido en el Centro de Detención Metropolitano de Brooklyn. Este lunes 5 de enero, Maduro compareció ante un tribunal federal en Manhattan escoltado por un operativo de seguridad sin precedentes. Vestido con uniforme de recluso, el exmandatario se declaró 'no culpable' de los cargos de narcoterrorismo y posesión de armas presentados por el Departamento de Justicia, afirmando ante el juez que se considera un 'prisionero de guerra' y que sigue siendo el presidente constitucional de su país.",
+            "La comunidad internacional y medios de comunicación como Víctor Amaya y BluRadio han reportado que la situación política en Venezuela entra en una fase de incertidumbre administrativa. Mientras Delcy Rodríguez busca consolidar el control interno y propone una agenda de diálogo respetuoso con la administración de Donald Trump, en Washington se advierte que el reconocimiento de su gobierno dependerá de sus acciones futuras. El periodo de transición, inicialmente estipulado por 90 días, marca el inicio de un proceso judicial y político que ha transformado el mapa geopolítico de la región."
+        ],
+        "imagen2": "./images/maduro.jpg"
+    },
+    {
         "titulo": "Donald Trump designa a Marco Rubio para liderar la estrategia de control sobre Venezuela",
         "descripcion": "El gobierno de Estados Unidos, bajo la administración de Donald Trump, ha dado un paso decisivo en su política hacia el país suramericano al designar al secretario de Estado, Marco Rubio, como la figura principal para gestionar la situación en Venezuela.",
         "imagen1": "./images/tru.webp",
