@@ -1,4 +1,5 @@
 [
+    
     {
         "titulo": "Fundación Geo impulsa el turismo histórico en Anzoátegui con nueva ruta en Valle Guanape",
         "descripcion": "El Grupo Ecológico del Orituco inicia la agenda de 2026 promoviendo los atractivos naturales y monumentos históricos del municipio Carvajal.",
@@ -10,43 +11,6 @@
             "Valle Guanape se posiciona así como un destino imperdible para este 2026, invitando a propios y foráneos a descubrir rincones que combinan la frescura de sus paisajes naturales con relatos históricos fundamentales para la zona. Desde la audiencia de Clave 99.3 FM se extiende la invitación a participar en estos recorridos que no solo promueven el esparcimiento, sino también la preservación del patrimonio ecológico de Venezuela."
         ],
         "imagen2": "./images/geo2.jpg"
-    },
-    {
-        "titulo": "Delcy Rodríguez asume la presidencia encargada tras la captura y traslado de Nicolás Maduro a Nueva York",
-        "descripcion": "En un acto ante la Asamblea Nacional, la vicepresidenta juramentó el cargo mientras se confirmaba la reclusión de Maduro en una prisión federal estadounidense por cargos de narcoterrorismo.",
-        "imagen1": "./images/delcy.jpg",
-        "contenido": [
-            "En una sesión histórica celebrada el 5 de enero de 2026, Delcy Rodríguez prestó juramento como presidenta encargada de Venezuela ante la Asamblea Nacional. El acto fue dirigido por su hermano, Jorge Rodríguez, quien fue ratificado como presidente del Parlamento, y contó con la participación de Nicolás Maduro Guerra, hijo del mandatario capturado, quien sostuvo la Constitución durante la ceremonia. La designación sigue el dictamen del Tribunal Supremo de Justicia para cubrir la falta temporal del Ejecutivo tras los eventos del pasado fin de semana.",
-            "Durante su discurso, Rodríguez utilizó una fuerte carga emocional al declarar: 'Juro por el comandante Hugo Chávez'. La mandataria interina calificó como un 'secuestro' la captura de Nicolás Maduro y de la primera combatiente, Cilia Flores, ocurrida el 3 de enero de 2026 durante una operación militar de Estados Unidos en Caracas. Rodríguez se refirió a ambos como 'héroes' y 'rehenes' del gobierno estadounidense, mientras hacía un llamado a la unidad de la Fuerza Armada y de los seguidores del chavismo.",
-            "Simultáneamente, en Nueva York, se confirmó que Nicolás Maduro se encuentra recluido en el Centro de Detención Metropolitano de Brooklyn. Este lunes 5 de enero, Maduro compareció ante un tribunal federal en Manhattan escoltado por un operativo de seguridad sin precedentes. Vestido con uniforme de recluso, el exmandatario se declaró 'no culpable' de los cargos de narcoterrorismo y posesión de armas presentados por el Departamento de Justicia, afirmando ante el juez que se considera un 'prisionero de guerra' y que sigue siendo el presidente constitucional de su país.",
-            "La comunidad internacional y medios de comunicación como Víctor Amaya y BluRadio han reportado que la situación política en Venezuela entra en una fase de incertidumbre administrativa. Mientras Delcy Rodríguez busca consolidar el control interno y propone una agenda de diálogo respetuoso con la administración de Donald Trump, en Washington se advierte que el reconocimiento de su gobierno dependerá de sus acciones futuras. El periodo de transición, inicialmente estipulado por 90 días, marca el inicio de un proceso judicial y político que ha transformado el mapa geopolítico de la región."
-        ],
-        "imagen2": "./images/maduro.jpg"
-    },
-    {
-        "titulo": "Donald Trump designa a Marco Rubio para liderar la estrategia de control sobre Venezuela",
-        "descripcion": "El gobierno de Estados Unidos, bajo la administración de Donald Trump, ha dado un paso decisivo en su política hacia el país suramericano al designar al secretario de Estado, Marco Rubio, como la figura principal para gestionar la situación en Venezuela.",
-        "imagen1": "./images/tru.webp",
-        "contenido": [
-            "El gobierno de Donald Trump designó al secretario de Estado, Marco Rubio, para encabezar las operaciones de control sobre Venezuela. Según Bloomberg, Rubio asumirá el liderazgo tras la extracción de Nicolás Maduro, posicionando a uno de los sectores más críticos del chavismo al frente de la transición operativa en el país.",
-            "Esta decisión surge tras las declaraciones de Trump sobre su intención de 'dirigir' Venezuela. Ante la ausencia de Maduro, el Tribunal Supremo venezolano otorgó poderes interinos a la vicepresidenta Delcy Rodríguez, quien denunció las acciones militares de Estados Unidos como una agresión bárbara contra la soberanía nacional.",
-            "El control de los recursos energéticos es el eje central de esta política, con Trump admitiendo la presencia de EE. UU. en el sector petrolero. Washington planea presionar al entorno de Rodríguez mediante un sistema de 'incentivos y castigos' para asegurar resultados favorables a sus intereses económicos sin detallar aún nuevos despliegues de tropas.",
-            "Trump lanzó una advertencia directa a los actuales funcionarios en Caracas: 'Lo que le ocurrió a Maduro les puede ocurrir a ellos'. Esta retórica busca forzar la cooperación del gobierno interino mediante amenazas de nuevos ataques, utilizando la presión política y militar como principal herramienta de negociación.",
-            "El objetivo final es la apertura de la industria petrolera a corporaciones estadounidenses para generar ingresos bajo una gestión alineada con Washington. Con Marco Rubio al mando, Estados Unidos busca consolidar una estructura de poder que garantice el control geopolítico y económico sobre el futuro de Venezuela."
-        ],
-        "imagen2": "./images/tru1.webp"
-    },
-    {
-        "titulo": "FUNVISIS reporta sismo de magnitud 4,5 en Zulia.",
-        "descripcion": "La Fundación Venezolana de Investigaciones Sismológicas (FUNVISIS) ha actualizado el reporte oficial sobre el movimiento telúrico percibido este jueves 1 de enero de 2026 en el occidente del país.",
-        "imagen1": "./images/a1.jpg",
-        "contenido": [
-            "Según el organismo, el sismo se registró a las 8:37 a.m. (hora local) con una magnitud de 4,5 y una profundidad de 35,2 km.",
-
-            "El epicentro fue localizado específicamente a 24 km al noreste de Villa del Rosario, en el estado Zulia.",
-
-            "Este reporte técnico ajusta la información ofrecida anteriormente por servicios internacionales, confirmando un evento de intensidad moderada que fue sentido con fuerza en Maracaibo, San Francisco."
-        ],
-        "imagen2": "./images/a2.jpg"
     }
+    
 ]
