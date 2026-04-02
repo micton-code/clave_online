@@ -22,9 +22,6 @@ html {
   background-size: cover;
 }
 
-main {
-  /* SOBRE CLAVE */
-}
 main .cabecera {
   display: grid;
   grid-template-areas: "reproductor reproductor" "titulo publicidad" "presentacion publicidad";
@@ -136,6 +133,9 @@ main .notiClaveOnline .noticia:hover {
 main .music-container audio {
   width: 100%;
   border-radius: 10px;
+}
+main {
+  /* SOBRE CLAVE */
 }
 main .sobreClave {
   text-align: justify;

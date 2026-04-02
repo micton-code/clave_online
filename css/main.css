@@ -22,20 +22,20 @@ html {
   background-color: #ddb00d;
 }
 .logoClaveOnline .logoPrincipal .logoPrincipal-container {
-  width: 320px;
+  width: 100%;
+  max-width: 320px;
   height: 70px;
   margin: 0 auto;
   margin-bottom: 20px;
   background-image: url(../images/claveMobile.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 main {
   width: 100%;
-  height: auto;
-  margin-top: 100px;
+  margin-top: 85.5px;
 }
 main .cabecera .reproductor .music-container {
   width: 90%;
@@ -68,7 +68,7 @@ main .notiClaveOnline h2 {
   text-align: center;
   font-size: 2.4rem;
   color: #21211f;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 main .notiClaveOnline .noticias-container {
   display: flex;
@@ -93,12 +93,14 @@ main .notiClaveOnline .noticia img {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 10px 0px 20px;
 }
 main .notiClaveOnline .noticia h3 {
   font-size: 2rem;
   text-shadow: #ddb00d 0.5px 0.5px 2px;
   color: #21211f;
   padding: 0.8rem 1rem;
+  margin: 1rem 0;
 }
 main .notiClaveOnline .noticia p {
   font-size: 1.5rem;

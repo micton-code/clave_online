@@ -1,3 +1,21 @@
+// 1. VARIABLES (Centralizamos todo para cambios rápidos):
+// 1.1 Fuentes de Texto
+$font-stack: "Roboto", sans-serif;
+// 1.2 Colores
+$color-clave: #ddb00d;
+$color-clave-light: #f7cc09;
+$color-bg-noticias: #fdf1bd;
+$color-whatsapp-start: #5eff7c;
+$color-whatsapp-end: #056104;
+$color-telegram-start: #32e1ed;
+$color-telegram-end: #1a8bdb;
+$color-texto-principal: #21211f;
+$color-blanco: #ffffff;
+// 1.3 Dimensiones
+$header-height: 70.5px; // Coincide exactamente con la altura del header
+
+
+// 2. RESET Y CONFIGURACIÓN BASE
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,13 +24,22 @@
 html{
     font-size: 62.5%;
 }
-// VARIABLES
-    // Fuentes de Texto
-    $font-stack: "Roboto", sans-serif;
 
-// CODIGO
 
-// HEADER (LOGO CLAVE ONLINE)
+// 3. REUTILIZACIÓN (Placeholders)
+%flex-social-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px 20px;
+    font-family: $font-stack;
+    color: black;
+    font-size: 1.6rem;
+}
+
+
+// CODIGO PRINCIPAL
+// 4. HEADER (LOGO CLAVE ONLINE)
 .logoClaveOnline {
     //anclaje superior fijo del header
     position:fixed;
@@ -22,14 +49,17 @@ html{
     z-index: 1000;
     //estilos visuales
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-    height: 70.5px;
+    height: $header-height;
     border-bottom: #969a9c 1px solid;
+    
     // Logo de Clave 99.3 FM
     .logoPrincipal {
-        background-color: #ddb00d;
+        background-color: $color-clave;
+        
         .logoPrincipal-container {
             //posicionamiento y dimensiones
-            width: 320px;
+            width: 100%;        // Ocupa el ancho disponible en móvil
+            max-width: 320px;   // Pero no más de 320px para no pixelarse
             height: 70px;
             margin: 0 auto;
             margin-bottom: 20px;
@@ -37,17 +67,16 @@ html{
             background-image: url(../images/claveMobile.jpeg);
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
             
         }
     }
 }
 
-// MAIN
+// 5. MAIN
 main {
     width: 100%;
-    height: auto;
-    margin-top: 100px;
+    margin-top: $header-height + 15px; // Espacio justo después del header fijo
 
     // CABECERA
     .cabecera {
@@ -91,7 +120,7 @@ main {
             text-align: center;
             font-size: 2.4rem;
             color: #21211f;
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
         }
 
         .noticias-container {
@@ -118,6 +147,7 @@ main {
             width: 100%;
             height: auto;
             object-fit: cover;
+            margin: 10px 0px 20px;
             }
 
             h3 {
@@ -125,6 +155,7 @@ main {
             text-shadow: #ddb00d 0.5px 0.5px 2px;
             color: #21211f;
             padding: 0.8rem 1rem;
+            margin: 1rem 0;
             }
 
             p {
