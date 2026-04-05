@@ -27,6 +27,7 @@ html{
 
 
 // 3. REUTILIZACIÓN (Placeholders)
+//3.1 Tarjetas de Redes Sociales (WhatsApp y Telegram)
 %flex-social-card {
     display: flex;
     justify-content: space-evenly;
@@ -36,7 +37,24 @@ html{
     color: black;
     font-size: 1.6rem;
 }
-
+//3.1.1 Estructura de texto para noticias clave (WhatsApp y Telegram)
+%estructura-de-info-texto-noticiasClave {
+    text-align: center;
+    line-height: 30px;
+    h2{
+        font-size: 1.7rem;
+    }
+    .texB{
+        font-size: 1.4rem;
+    }
+    .enlace-noticiasClave{
+        
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
 
 // CODIGO PRINCIPAL
 // 4. HEADER (LOGO CLAVE ONLINE)
@@ -159,7 +177,7 @@ main {
             }
 
             p {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             line-height: 1.6;
             color: #333;
             padding: 0 1rem 1rem;
@@ -175,7 +193,7 @@ main {
             height: 20rem;
             position: relative;
             overflow: hidden;
-            margin: 0 auto 30px;
+            margin: 30px auto;
             .ad-image {
                 width: 100%;
                 height: 100%;
@@ -217,12 +235,12 @@ main {
             text-align: center;
             font-size: 2.8rem;
             color: black;
-            margin-bottom: 30px;
+            margin: 60px 0 30px;
         }
         //PRESENTACION
         .presentacion {
             text-align: justify;
-            padding: 0 20px 30px;
+            padding: 0 20px 40px;
             p {
                 font-family: $font-stack;
                 font-size: 1.6rem;
@@ -235,68 +253,28 @@ main {
     .noticiasClave{
         //telegram
         .container-noticiasClave-telegram{
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            background: linear-gradient(54deg,rgba(255, 255, 255, 1) 10%, rgba(50, 225, 237, 1) 50%, rgba(26, 139, 219, 1) 100%);
-            color: black;
-            font-size: 1.6rem;
-            padding: 12px 20px;
-            font-family: $font-stack;
+            @extend %flex-social-card;
+            background: linear-gradient(54deg,$color-blanco 10%, $color-telegram-start 50%, $color-telegram-end 100%);
             .img-noticiasClave-telegram{
                 .icoTele{
                     width: 50px;
                 }
             }
             .texto-noticiasClave{
-                text-align: center;
-                line-height: 30px;
-                h2{
-                    font-size: 1.7rem;
-                }
-                .texB{
-                    font-size: 1.4rem;
-                }
-                .enlace-noticiasClave{
-                    
-                    a{
-                        text-decoration: none;
-                        color: black;
-                    }
-                }
+                @extend %estructura-de-info-texto-noticiasClave;
         }    
         }
         //whatsapp
         .container-noticiasClave{
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            background: linear-gradient(169deg,rgba(255, 255, 255, 1) 10%, rgba(94, 255, 124, 1) 50%, rgba(5, 97, 4, 1) 100%);
-            color: black;
-            font-size: 1.6rem;
-            padding: 12px 20px;
-            font-family: $font-stack;
+            @extend %flex-social-card;
+            background: linear-gradient(169deg,$color-blanco 10%, $color-whatsapp-start 50%, $color-whatsapp-end 100%);
             .img-noticiasClave{
                 .icoWhats{
                     width: 50px;
                 }
             }
             .texto-noticiasClave{
-                text-align: center;
-                line-height: 30px;
-                h2{
-                    font-size: 1.7rem;
-                }
-                .texB{
-                    font-size: 1.4rem;
-                }
-                .enlace-noticiasClave{
-                    
-                    a{
-                        text-decoration: none;
-                        color: black;
-                    }
-                }
+                @extend %estructura-de-info-texto-noticiasClave;
             }
         }
     }
@@ -313,7 +291,7 @@ main {
 
     .sobreClave {
             text-align: justify;
-            padding: 0 20px 30px;
+            padding: 30px 20px;
             background-color: #fdf1bd;
             h2{
                 font-family: $font-stack;
@@ -324,7 +302,7 @@ main {
             }
             p {
                 font-family: $font-stack;
-                font-size: 1.4rem;
+                font-size: 1.6rem;
                 color: black;
             }
     }
@@ -372,11 +350,12 @@ footer {
         }
         .down {
             width: 100%;
+            padding-bottom: 30px;
+            font-size: 1.2rem;
             height: auto;
             text-align: center;   
             background-color: orange; 
             color: black;
-            padding-bottom: 20px;
         }
     }
 }
